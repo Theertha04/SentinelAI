@@ -12,7 +12,6 @@ SentinelAI monitors a camera feed for fall events and loud sounds, automatically
 - **Audio Monitoring** – Continuously captures microphone audio and detects loud sounds (screams, crashes) using RMS energy analysis
 - **Video Clip Recording** – Saves a 10-second clip (5s before + 5s after the fall) as a compressed AVI file
 - **Email Alerts** – Sends two emails to configured emergency contacts: an instant text alert, followed by the video clip as an attachment
-- **False Alarm Cancel** – A 30-second cancel window lets you press `SPACE` to suppress an accidental alert before it sends
 - **Web Dashboard** – A browser-based live monitoring view with pose overlay, status panels, and a cancel button
 - **Desktop UI** – An OpenCV window with real-time overlays for fall status, torso angle, audio level, alert state, and FPS
 
